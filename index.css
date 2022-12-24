@@ -1,0 +1,385 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css');
+
+@font-face {
+  font-family: 'Thesignature';
+  font-weight: 700;
+  src: url('/font/Thesignature.ttf') format('woff2');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(25, 25, 25, 0.8)),
+    url(/images/oldTrafford.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+  padding: 25px;
+  font-family: 'Pretendard', sans-serif;
+}
+li a {
+  display: block;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.line {
+  position: absolute;
+  border-left: 4px solid white;
+  height: 170px;
+  right: 50%;
+  bottom: 0%;
+  box-shadow: 0px 0px 6px 2px rgb(256, 256, 256, 0.5);
+}
+
+nav img {
+  width: 50px;
+  top: 0%;
+  left: 0%;
+}
+
+.main-content {
+  margin-top: 80px;
+  position: relative;
+}
+
+.main-content img {
+  width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  z-index: 1;
+}
+
+.title_first {
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 900;
+  color: white;
+  letter-spacing: -13px;
+  font-size: 170px;
+  transform: translate(-60%, 20%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.title_second {
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 900;
+  color: white;
+  letter-spacing: -13px;
+  font-size: 170px;
+  transform: translate(10%, 150%);
+  position: absolute;
+  left: 50%;
+  z-index: 2;
+}
+
+.about-container {
+  position: relative;
+}
+
+.manu-info-title {
+  width: 100%;
+  height: 250px;
+  background: rgb(199, 33, 21);
+}
+
+.about-line {
+  position: absolute;
+  border-left: 4px solid white;
+  height: 70px;
+  right: 50%;
+  top: 0%;
+  box-shadow: 0px 0px 6px 2px rgb(256, 256, 256, 0.5);
+}
+
+.park-image {
+  position: absolute;
+  right: 14%;
+  top: 3%;
+  width: 350px;
+  z-index: 1;
+}
+
+.info-text-bg01 {
+  position: absolute;
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 900;
+  font-size: 250px;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  top: 0%;
+  right: 0%;
+  transform: translate(0%, 0%);
+  z-index: 0;
+  letter-spacing: -10px;
+}
+
+.info-text-bg02 {
+  position: absolute;
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 900;
+  font-size: 250px;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  top: 30%;
+  right: 0%;
+  transform: translate(0%, 0%);
+  z-index: 0;
+  letter-spacing: -10px;
+}
+
+.manu-info-title p {
+  padding-top: 8%;
+  padding-left: 6%;
+  text-align: left;
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 900;
+  font-size: 45px;
+  color: white;
+}
+
+.manu-info-content {
+  width: 100%;
+  height: 400px;
+  background: rgb(25, 25, 25);
+}
+
+.manu-info-content p {
+  padding-left: 6%;
+  padding-top: 30px;
+  text-align: left;
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: white;
+  line-height: 25px;
+}
+
+.team-container {
+  padding-top: 5%;
+  width: 100%;
+  height: 1650px;
+  background: rgb(25, 25, 25);
+}
+
+.team-content {
+  height: 900px;
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  top: -38%;
+  left: 16%;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #da291c;
+  border-radius: 50px;
+  z-index: -1;
+}
+
+.manu-team-title {
+  position: relative;
+  z-index: 0;
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 900;
+  font-size: 55px;
+  color: white;
+  padding-left: 6%;
+}
+
+td,
+th {
+  border: 1px solid rgb(256, 256, 256, 0.2);
+  padding: 10px;
+}
+
+table {
+  width: 88%;
+  margin: auto;
+  margin-top: 80px;
+  text-align: center;
+
+  border-collapse: collapse;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.article {
+  padding: 20px;
+}
+
+table img {
+  filter: drop-shadow(4px 2px 8px #312120);
+}
+
+.article-title {
+  margin-top: 30px;
+  text-align: left;
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: rgb(256, 256, 256, 0.8);
+}
+
+.article-content {
+  margin-top: 15px;
+  text-align: left;
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: rgb(256, 256, 256, 0.6);
+}
+
+.ticket-line {
+  font-family: 'Pretendard', sans-serif;
+  padding-left: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #faf8e5;
+  overflow: hidden;
+}
+
+.video-container {
+  padding-top: 5%;
+  width: 100%;
+  height: 900px;
+  background: rgb(25, 25, 25);
+}
+
+.circle-video {
+  position: absolute;
+  top: -7%;
+  left: 35%;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #da291c;
+  border-radius: 50px;
+  z-index: -1;
+}
+
+.video-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-title {
+  position: relative;
+  z-index: 0;
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 900;
+  font-size: 55px;
+  color: white;
+  padding-left: 15%;
+}
+
+.video-play {
+  margin-top: 80px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.video-text {
+  margin-right: 10%;
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+  color: white;
+}
+
+.v-line {
+  border-left: 2px solid rgb(256, 256, 256, 0.6);
+  height: 30wh;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.submit-container {
+  padding-top: 5%;
+  width: 100%;
+  height: 900px;
+  background: url(/images/submit-bg-web.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.circle-submit {
+  position: absolute;
+  top: -20%;
+  left: 90%;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #da291c;
+  border-radius: 50px;
+  z-index: -1;
+}
+
+#submit-form {
+  font-family: 'Pretendard', sans-serif;
+  padding-top: 5%;
+  padding-right: 13%;
+  padding-left: 13%;
+  position: relative;
+}
+
+.fs-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-size: 50px;
+}
+
+.submit-input {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+#level {
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.submit-input input {
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.action-button {
+  font-family: 'Pretendard', sans-serif;
+  background: transparent;
+  border: 2px solid #da291c;
+  color: #fff;
+  font-weight: 900;
+  font-size: 20px;
+  cursor: pointer;
+}

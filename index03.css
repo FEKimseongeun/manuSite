@@ -1,0 +1,170 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600;700;800;900&display=swap');
+
+body {
+  background: rgb(256, 256, 256);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav li {
+  float: left;
+  padding: 25px;
+  font-family: 'Pretendard', sans-serif;
+}
+nav li a {
+  display: block;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #da291c;
+}
+
+nav img {
+  width: 50px;
+  top: 0%;
+  left: 0%;
+}
+
+.submit-container {
+  width: 100%;
+  height: 900px;
+}
+
+.gallery {
+  padding: 0 0rem;
+}
+
+.container {
+  max-width: 1030px;
+  margin: 0 auto;
+}
+
+.d-none {
+  display: none;
+}
+
+.v-line {
+  border-left: 1px solid #32a1ce;
+  height: 50px;
+}
+
+/* TOOLBAR
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toolbar .search-wrapper {
+  position: relative;
+}
+
+.toolbar input[type='search'] {
+  font-size: 1.1rem;
+  border: none;
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
+}
+
+.toolbar ::placeholder {
+  color: #ccc;
+}
+
+.toolbar .counter {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 5px);
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.view-options {
+  display: flex;
+  align-items: center;
+}
+
+.view-options li:not(:last-child) {
+  margin-right: 1.2rem;
+}
+
+.view-options button {
+  padding: 2px;
+  border: 3px solid transparent;
+}
+
+.view-options .active button {
+  border-color: #18846c;
+}
+
+/* IMAGE LIST
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.image-list {
+  margin: 3rem 0;
+}
+
+.image-list li {
+  background: rgb(249, 249, 250);
+  color: black;
+}
+
+.image-list p:first-child {
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+.image-list p:last-child {
+  margin-top: 0.5rem;
+}
+
+/* GRID VIEW
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.grid-view {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.grid-view figcaption {
+  padding: 1rem;
+}
+
+/* LIST VIEW
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.list-view li + li {
+  margin-top: 1.5rem;
+}
+
+.list-view figure {
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: 150px 1fr;
+  align-items: center;
+}
