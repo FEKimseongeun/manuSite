@@ -3,7 +3,7 @@
 @font-face {
   font-family: 'Thesignature';
   font-weight: 700;
-  src: url('/font/Thesignature.ttf') format('woff2');
+  src: url('./font/Thesignature.ttf') format('woff2');
 }
 
 * {
@@ -15,7 +15,7 @@
 .main-container {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(25, 25, 25, 0.8)),
-    url(/images/oldTrafford.jpg);
+    url('./images/oldTrafford.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -325,7 +325,7 @@ table img {
   padding-top: 5%;
   width: 100%;
   height: 900px;
-  background: url(/images/submit-bg-web.png);
+  background: url('./images/submit-bg-web.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
