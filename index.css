@@ -15,7 +15,7 @@
 .main-container {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(25, 25, 25, 0.8)),
-    url('./images/oldTrafford.jpg');
+    url(./images/oldTrafford.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
